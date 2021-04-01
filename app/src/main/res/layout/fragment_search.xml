@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".homescreen.HomeFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/top_bar"
+            android:layout_width="match_parent"
+            android:layout_height="188dp"
+            android:background="@drawable/custom_tab_bar">
+
+            <TextView
+                android:id="@+id/title_filter"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_marginStart="@dimen/margin3"
+                android:layout_marginTop="@dimen/margin4"
+                android:background="@drawable/border_white"
+                android:drawablePadding="6dp"
+                android:gravity="center_vertical"
+                android:paddingStart="@dimen/margin2"
+                android:paddingEnd="@dimen/margin4"
+                android:text="@string/filter"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size0"
+                app:drawableStartCompat="@drawable/ic_white_filter"
+                tools:ignore="RtlSymmetry" />
+
+            <!--            <EditText-->
+            <!--                android:id="@+id/search_edit_text"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="36dp"-->
+            <!--                android:layout_marginHorizontal="@dimen/margin3"-->
+            <!--                android:layout_marginTop="@dimen/margin2"-->
+            <!--                android:layout_below="@id/title_search"-->
+            <!--                android:background="@drawable/custom_edit_text_search"-->
+            <!--                android:drawableStart="@drawable/search_icon_gray"-->
+            <!--                android:drawablePadding="@dimen/margin2"-->
+            <!--                android:hint="@string/description_wait_screen4"-->
+            <!--                android:paddingStart="@dimen/margin2"-->
+            <!--                android:textCursorDrawable="@color/blue"-->
+            <!--                android:textSize="@dimen/text_size0" />-->
+
+            <TextView
+                android:id="@+id/tittle_location"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_below="@+id/title_filter"
+                android:layout_marginStart="@dimen/margin3"
+                android:layout_marginTop="@dimen/margin2"
+                android:gravity="center_vertical"
+                android:text="@string/location"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size2"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/city_spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_below="@+id/title_filter"
+                android:layout_marginStart="@dimen/margin2"
+                android:layout_marginTop="@dimen/margin2"
+                android:layout_toEndOf="@+id/tittle_location"
+                android:entries="@array/city"
+                android:gravity="center_vertical"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size3" />
+
+            <Spinner
+                android:id="@+id/district_spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_below="@+id/title_filter"
+                android:layout_marginStart="@dimen/margin2"
+                android:layout_marginTop="@dimen/margin2"
+                android:layout_toEndOf="@+id/city_spinner"
+                android:entries="@array/city"
+                android:gravity="center_vertical"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size3" />
+
+
+            <TextView
+                android:id="@+id/title_price"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_below="@+id/tittle_location"
+                android:layout_marginStart="@dimen/margin3"
+                android:layout_marginTop="@dimen/margin2"
+                android:gravity="center_vertical"
+                android:text="@string/price"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size2"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:id="@+id/min_price"
+
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/margin8"
+                android:layout_below="@+id/tittle_location"
+                android:layout_marginStart="@dimen/margin1"
+                android:layout_marginTop="@dimen/margin2"
+                android:layout_toEndOf="@+id/title_price"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:hint="@string/price"
+
+                android:inputType="number"
+                android:minWidth="@dimen/margin8"
+                android:textColor="@color/white"
+                android:textCursorDrawable="@color/blue"
+                android:textSize="@dimen/text_size0"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/between"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/margin8"
+                android:layout_below="@+id/tittle_location"
+                android:layout_marginStart="@dimen/margin1"
+                android:layout_marginTop="@dimen/margin2"
+                android:layout_toEndOf="@id/min_price"
+                android:gravity="center_vertical"
+                android:text="to"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size0"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/max_price"
+
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/margin8"
+                android:layout_below="@+id/tittle_location"
+                android:layout_marginStart="@dimen/margin1"
+                android:layout_marginTop="@dimen/margin2"
+                android:layout_toEndOf="@id/between"
+                android:background="@null"
+                android:gravity="center_vertical"
+                android:hint="@string/price"
+                android:inputType="number"
+                android:minWidth="@dimen/margin8"
+                android:textColor="@color/white"
+                android:textCursorDrawable="@color/blue"
+                android:textSize="@dimen/text_size0"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/sum_result"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_below="@+id/title_price"
+                android:layout_marginStart="@dimen/margin3"
+                android:layout_marginTop="@dimen/margin2"
+                android:gravity="center_vertical"
+                android:text="152"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size0"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/title_sum_result"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_below="@+id/title_price"
+                android:layout_marginStart="@dimen/margin1"
+                android:layout_marginTop="@dimen/margin2"
+                android:layout_toEndOf="@+id/sum_result"
+                android:gravity="center_vertical"
+                android:text="@string/selected_result"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size0"
+                android:textStyle="bold" />
+
+
+            <!--            <ImageView-->
+            <!--                android:id="@+id/chat"-->
+            <!--                android:layout_width="30dp"-->
+            <!--                android:layout_height="30dp"-->
+            <!--                android:layout_below="@+id/tittle_location"-->
+            <!--                android:layout_alignParentEnd="true"-->
+            <!--                android:layout_marginTop="@dimen/margin2"-->
+            <!--                android:layout_marginEnd="@dimen/margin3"-->
+            <!--                android:layout_marginStart="@dimen/margin4"-->
+            <!--                android:background="@drawable/border_white_fill"-->
+            <!--                android:padding="@dimen/margin2"-->
+            <!--                android:scaleType="centerCrop"-->
+            <!--                android:src="@drawable/filter" />-->
+
+
+        </RelativeLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/top_bar"
+            android:layout_marginHorizontal="@dimen/margin3"
+            android:layout_marginTop="@dimen/margin2" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

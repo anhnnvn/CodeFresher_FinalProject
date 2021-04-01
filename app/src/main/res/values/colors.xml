@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="transition">#00FFFFFF</color>
+    <color name="background_blue1">#2B868C</color>
+    <color name="background_blue">#328A96</color>
+
+    <color name="blue">#495f8c</color>
+    <color name="light_blue">#7587FF</color>
+    <color name="transition_light_blue">#0d7094FF</color>
+    <color name="hint_blue">#80495f8c</color>
+
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <color name="black">#FF000000</color>
+    <color name="transition_black">#a6000000</color>
+
+    <color name="orange">#f25c05</color>
+
+    <color name="pink">#EC1067</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="dark_white">#E6E6E6</color>
+    <color name="transition_white">#A6F6F5F5</color>
+
+    <color name="dark_white_transition">#80000000</color>
+    <color name="blue_transition">#A63B7097</color>
+    <color name="be_transition">#A6f6e2bc</color>
+
+    <color name="line">#A6888888</color>
+    <color name="black_line">#A64E4E4E</color>
+    <color name="dark_line">#A6595959</color>
+
+    <color name="red">#DC3545</color>
+
+<!--    100% — FF-->
+<!--    95% — F2-->
+<!--    90% — E6-->
+<!--    85% — D9-->
+<!--    80% — CC-->
+<!--    75% — BF-->
+<!--    70% — B3-->
+<!--    65% — A6-->
+<!--    60% — 99-->
+<!--    55% — 8C-->
+<!--    50% — 80-->
+<!--    45% — 73-->
+<!--    40% — 66-->
+<!--    35% — 59-->
+<!--    30% — 4D-->
+<!--    25% — 40-->
+<!--    20% — 33-->
+<!--    15% — 26-->
+<!--    10% — 1A-->
+<!--    5% — 0D-->
+<!--    0% — 00-->
+
+
+</resources>

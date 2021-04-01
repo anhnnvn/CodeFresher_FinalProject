@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".homescreen.ProfileFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1000dp"
+        android:padding="@dimen/margin8">
+
+        <EditText
+            android:id="@+id/n1"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/custom_edit_text"
+            android:drawableStart="@drawable/email"
+            android:drawablePadding="@dimen/margin2"
+            android:paddingStart="@dimen/text_size1" />
+
+        <EditText
+            android:id="@+id/n2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/n1"
+            android:layout_marginTop="@dimen/margin2"
+            android:background="@drawable/custom_edit_text"
+            android:drawableStart="@drawable/padlock"
+            android:drawablePadding="@dimen/margin2"
+            android:paddingStart="@dimen/text_size1" />
+
+        <EditText
+            android:id="@+id/n3"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@id/n2"
+            android:layout_marginTop="@dimen/margin2"
+            android:background="@drawable/custom_edit_text" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/n3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margin2"
+            android:text="Choose"
+            android:textSize="@dimen/text_size4" />
+
+        <Spinner
+            android:textAlignment="center"
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView11"
+            android:entries="@array/country"
+            android:gravity="center" />
+
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/spinner"
+            android:layout_marginTop="@dimen/text_size2"
+            android:background="@drawable/custom_button"
+            android:text="@string/find"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button"
+            android:layout_marginTop="@dimen/text_size2"
+            android:background="@drawable/custom_button"
+            android:text="@string/find"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button1"
+            android:layout_marginTop="@dimen/text_size2"
+            android:background="@drawable/custom_button"
+            android:text="@string/find"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+
+
+</ScrollView>

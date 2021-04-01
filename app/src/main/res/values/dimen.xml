@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <dimen name="small_icon_size">24dp</dimen>
+    <dimen name="small_item_height">40dp</dimen>
+
+    <dimen name="normal_icon_size">36dp</dimen>
+    <dimen name="normal_item_height">80dp</dimen>
+
+    <dimen name="today_icon_size">100dp</dimen>
+    <dimen name="today_item_height">180dp</dimen>
+
+    <dimen name="mid_icon_size">44dp</dimen>
+    <dimen name="mid_item_height">120dp</dimen>
+
+    <dimen name="text_size_min">10sp</dimen>
+    <dimen name="text_size0">12sp</dimen>
+    <dimen name="text_size1">14sp</dimen>
+    <dimen name="text_size2">16sp</dimen>
+    <dimen name="text_size3">18sp</dimen>
+    <dimen name="text_size4">24sp</dimen>
+    <dimen name="text_size5">30sp</dimen>
+    <dimen name="text_size6">36sp</dimen>
+
+    <dimen name="height_line">1dp</dimen>
+
+
+    <dimen name="margin1">4dp</dimen>
+    <dimen name="margin2">8dp</dimen>
+    <dimen name="margin3">12dp</dimen>
+    <dimen name="margin4">16dp</dimen>
+    <dimen name="margin5">20dp</dimen>
+    <dimen name="margin6">24dp</dimen>
+    <dimen name="margin7">28dp</dimen>
+    <dimen name="margin8">32dp</dimen>
+    <dimen name="margin9">40dp</dimen>
+    <dimen name="margin10">50dp</dimen>
+    <dimen name="margin11">80dp</dimen>
+    <dimen name="margin12">120dp</dimen>
+</resources>

@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">Fogo</string>
+    <string name="sign_in_big">SIGN IN</string>
+    <string name="sign_in_normal">Sign in</string>
+    <string name="logo">𝙁𝒐𝒈𝒐</string>
+    <string name="logo1">Fogo</string>
+    <string name="logo2">𝒇𝒐𝒈𝒐</string>
+    <string name="recommended">Recommended</string>
+    <string name="best_match">Best match property</string>
+    <string name="view_all">More</string>
+
+    <string name="HK">Hoan Kiem</string>
+    <string name="TX">Thanh Xuan</string>
+    <string name="DĐ">Dong Da</string>
+    <string name="HBT">Hai Ba Trung</string>
+    <string name="HĐ">Ha Dong</string>
+    <string name="CG">Cau Giay</string>
+    <string name="HM">Hoang Mai</string>
+    <string name="BĐ">Ba Dinh</string>
+
+    <string name="CLEAR">Clear home</string>
+    <string name="CLOUDS">Cloud home</string>
+    <string name="FOG">Fog home</string>
+    <string name="LIGHT_CLOUDS">Light cloud home</string>
+    <string name="LIGHT_RAIN">Light rain home</string>
+    <string name="RAIN">Rain home</string>
+    <string name="SNOW">Snow home</string>
+    <string name="STORM">Storm home</string>
+
+
+    <string name="username">   Phone number</string>
+    <string name="full_name">  Full name</string>
+    <string name="describe">   Description</string>
+    <string name="password">   Password</string>
+    <string name="password_again">   Password again</string>
+    <string name="phone">   Phone Number</string>
+    <string name="otp">   OTP Code</string>
+
+
+    <string name="back_to_home">Home page</string>
+
+    <string name="description_wait_screen1">I am looking to find.</string>
+    <string name="description_wait_screen3">Finding your dream home now much easier. We care about you.</string>
+    <string name="description_wait_screen4">Type your location address.</string>
+    <string name="description_wait_screen2">What do i need to know?</string>
+
+    <string name="find">Find Now</string>
+    <string name="favourite">Favourite</string>
+    <string name="search">Search</string>
+    <string name="price">Price</string>
+    <string name="filter">Filter</string>
+    <string name="book">Book Now</string>
+    <string name="find_residencies">Find residencies</string>
+
+    <string name="menu">Menu</string>
+
+    <string name="describe_username">Số điện thoại không được bỏ trống!</string>
+    <string name="describe_password">Mật khẩu không được bỏ trống!</string>
+
+    <string name="forgot_password">Forgot password?</string>
+
+    <string name="sign_in_with">Or sign in with</string>
+    <string name="sign_up">Sign up</string>
+    <string name="sign_up_big">SIGN UP</string>
+    <string name="sign_up_normal">Sign up</string>
+    <string name="link_to_send_otp">Do not have OTP code?</string>
+    <string name="resend">Resend?</string>
+
+    <string name="link_to_sign_up">Do not have an account?</string>
+    <string name="describe_sign_in">Sign in to existing account or create a new one.</string>
+    <string name="describe_sign_up">Sign up to create a new one.</string>
+    <string name="location">Location</string>
+    <string name="selected_result">Selected Results</string>
+
+    <string-array name="country">
+        <item>+</item>
+        <item>-</item>
+        <item>x</item>
+        <item>/</item>
+    </string-array>
+    <string-array name="city">
+        <item>Ha Noi</item>
+        <item>TP.HCM</item>
+        <item>Hai Phong</item>
+        <item>Da Nang</item>
+    </string-array>
+</resources>

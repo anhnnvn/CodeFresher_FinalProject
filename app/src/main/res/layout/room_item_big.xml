@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="140dp"
+    android:paddingBottom="@dimen/margin4">
+
+    <RelativeLayout
+        android:id="@+id/describe_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="180dp"
+        android:background="@drawable/border_line_white_fill"
+        android:paddingStart="@dimen/margin2"
+        android:textColor="@color/light_blue"
+        android:textSize="@dimen/text_size3"
+        tools:ignore="RtlSymmetry">
+
+
+        <TextView
+            android:id="@+id/room_name"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/margin5"
+            android:layout_marginStart="@dimen/margin7"
+            android:layout_marginTop="@dimen/margin4"
+            android:text="@string/full_name"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size1"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/icon_acreage"
+            android:layout_width="@dimen/margin4"
+            android:layout_height="@dimen/margin4"
+            android:layout_below="@+id/room_price"
+            android:layout_marginStart="@dimen/margin7"
+            android:gravity="center"
+            android:paddingEnd="@dimen/margin1"
+
+            android:src="@drawable/pin" />
+
+        <TextView
+            android:id="@+id/room_address"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/margin4"
+            android:layout_below="@id/room_price"
+            android:layout_toEndOf="@id/icon_acreage"
+            android:gravity="center_vertical"
+            android:text="@string/logo"
+            android:textColor="@color/black_line"
+            android:textSize="@dimen/text_size0"
+            tools:ignore="SpUsage" />
+
+        <ImageView
+            android:id="@+id/icon_price"
+            android:layout_width="@dimen/margin4"
+            android:layout_height="@dimen/margin4"
+            android:layout_below="@+id/room_name"
+            android:layout_marginStart="@dimen/margin7"
+            android:gravity="center"
+            android:paddingVertical="3dp"
+            android:paddingEnd="6dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/dollars_gold" />
+
+        <TextView
+            android:id="@+id/room_price"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/margin4"
+            android:layout_below="@id/room_name"
+            android:layout_toEndOf="@id/icon_price"
+            android:gravity="center_vertical"
+            android:text="@string/logo"
+            android:textColor="@color/black_line"
+            android:textSize="@dimen/text_size0"
+            tools:ignore="SpUsage" />
+
+    </RelativeLayout>
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/room_image"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="@dimen/margin3"
+        android:scaleType="centerCrop"
+        android:src="@drawable/item_5"
+        app:riv_corner_radius="@dimen/margin2" />
+
+    <ImageView
+        android:id="@+id/favorite"
+        android:layout_width="@dimen/margin6"
+        android:layout_height="@dimen/margin6"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="@dimen/margin2"
+        android:layout_marginBottom="@dimen/margin2"
+        android:padding="@dimen/margin1"
+        android:scaleType="centerCrop"
+        android:src="@drawable/heart" />
+
+</RelativeLayout>

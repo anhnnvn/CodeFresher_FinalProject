@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/line1"
+        android:title="@string/logo"/>
+    <item android:id="@+id/line2"
+        android:title="@string/logo">
+        <menu >
+            <item android:title="@string/logo"
+                android:id="@+id/line3"/>
+
+            <item android:title="@string/logo"
+                android:id="@+id/line4"/>
+        </menu>
+    </item>
+    <item android:id="@+id/line5"
+        android:title="@string/logo"/>
+</menu>
